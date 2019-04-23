@@ -6,7 +6,7 @@
 /*   By: ebatchas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/07 16:58:27 by ebatchas          #+#    #+#             */
-/*   Updated: 2018/12/23 22:43:26 by ebatchas         ###   ########.fr       */
+/*   Updated: 2019/04/08 15:46:00 by ebatchas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 # define SCR_WIDTH  840
 # define SCR_HEIGHT 640
 
-# define NB_THREADS 10 
+# define NB_THREADS 6 
 # define NC 256
 # define N3 NC*NC*NC
 

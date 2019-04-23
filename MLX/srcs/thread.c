@@ -6,7 +6,7 @@
 /*   By: ebatchas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/18 17:17:15 by ebatchas          #+#    #+#             */
-/*   Updated: 2018/12/23 22:42:21 by ebatchas         ###   ########.fr       */
+/*   Updated: 2019/04/06 21:14:42 by ebatchas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void			*ft_julia_draw_t(void *ptr)
 	t = (t_arg *)ptr;
 	t->f.start = t->iter * SCR_WIDTH / NB_THREADS;
 	x = (t->iter  + 1) * SCR_WIDTH / NB_THREADS + 1;
-	while (--x >= t->f.start)
+	while (--x >= t->f.start)  
 	{
 		y = SCR_HEIGHT + 1;
 		while (--y >= 0)
